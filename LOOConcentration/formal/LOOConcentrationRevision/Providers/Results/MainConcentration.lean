@@ -1,0 +1,69 @@
+import LOOConcentration.Geometry.NormTransport
+import LOOConcentration.Frozen.Foundations.FittedLoss
+import LOOConcentration.Frozen.Foundations.LooEstimate
+import LOOConcentration.Probability.ProductConditionalRisk
+import Mathlib.Analysis.Calculus.Gradient.Basic
+import Mathlib.Analysis.InnerProductSpace.ProdL2
+import Mathlib.MeasureTheory.Function.L2Space
+import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.Topology.MetricSpace.Lipschitz
+import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Analysis.Normed.Lp.MeasurableSpace
+import Mathlib.Data.EReal.Basic
+import LOOConcentrationRevision.Frozen.Definitions.ObservationLogSobolevConstant
+import LOOConcentrationRevision.Frozen.Definitions.LooRiskL1
+import LOOConcentrationRevision.Frozen.Definitions.StandingAssumption
+import LOOConcentrationRevision.Frozen.Definitions.ThetaRate
+import Mathlib.Tactic
+import LOOConcentrationRevision.Results.MainConcentrationSourceAssembly
+
+/-! Exact revision command for pre-approval elaboration; no declaration approval inferred. -/
+
+set_option autoImplicit false
+namespace LOOConcentration.Revision.Providers
+open MeasureTheory Filter
+open scoped Topology ENNReal
+
+theorem mainConcentration {k m n : ℕ}
+    (μ : Measure (Observation k m)) [IsProbabilityMeasure μ]
+    (T : ∀ r : ℕ, Estimator k m (r + 1)) (L : Responses m → Responses m → ℝ)
+    (δ₁ δ₂ : ℕ → Observation k m → ℝ) (δ₃ : ℕ → ℝ) (c d : ℝ)
+    (h : StandingAssumption (n := n) μ T L δ₁ δ₂ δ₃ c d)
+    (ε : ℝ) (hε : 3 * δ₃ (n + 2) < ε) :
+    let C := (observationLogSobolevConstant μ).toReal
+    let M₂ := ∫ z, observationNormSq z ∂μ
+    let H := fun D =>
+      (looRiskL1 μ (T (n + 1)) L (h.stable.integrable_full n)) D -
+        looEstimate (T n) L D
+    let θ₁ := fun z => thetaRate C M₂ ENNReal.toReal_nonneg
+      (integral_nonneg observationNormSq_nonneg) (n + 1) (by omega)
+      (ε / 3) (by linarith [h.stable.delta₃_nonneg n])
+      (δ₁ (n + 1) z) (δ₂ (n + 1) z)
+      (h.stable.delta₁_nonneg n z) (h.stable.delta₂_nonneg n z)
+    let θ₂ := thetaRate C M₂ ENNReal.toReal_nonneg
+      (integral_nonneg observationNormSq_nonneg) (n + 2) (by omega)
+      (ε / 3) (by linarith [h.stable.delta₃_nonneg n])
+      (c / Real.sqrt (n + 2 : ℝ)) (d / (n + 2 : ℝ))
+      (div_nonneg h.c_nonneg (Real.sqrt_nonneg _))
+      (div_nonneg h.d_nonneg (by positivity))
+    let θ₃ := thetaRate C M₂ ENNReal.toReal_nonneg
+      (integral_nonneg observationNormSq_nonneg) (n + 2) (by omega)
+      (ε / 3 - δ₃ (n + 2)) (by linarith)
+      (∫ z, δ₁ (n + 2) z ∂μ) (∫ z, δ₂ (n + 2) z ∂μ)
+      (integral_nonneg (h.stable.delta₁_nonneg (n + 1)))
+      (integral_nonneg (h.stable.delta₂_nonneg (n + 1)))
+    let Pplus := (Measure.pi fun _ : Fin (n + 2) => μ).real {D | H D > ε}
+    let Pminus := (Measure.pi fun _ : Fin (n + 2) => μ).real {D | -H D > ε}
+    (Pplus ≤ (n + 2 : ℝ) * (∫ z, θ₁ z ∂μ) + θ₂ + θ₃ ∧
+     Pminus ≤ (n + 2 : ℝ) * (∫ z, θ₁ z ∂μ) + θ₂ + θ₃) ∧
+    ∀ (a b : NNReal) (_hbound : ∀ᵐ z ∂μ,
+      δ₁ (n + 1) z ≤ (a : ℝ) ∧ δ₂ (n + 1) z ≤ (b : ℝ)),
+      let θuniform := thetaRate C M₂ ENNReal.toReal_nonneg
+        (integral_nonneg observationNormSq_nonneg) (n + 1) (by omega)
+        (ε / 3) (by linarith [h.stable.delta₃_nonneg n])
+        a b a.property b.property
+      Pplus ≤ θuniform + θ₂ + θ₃ ∧ Pminus ≤ θuniform + θ₂ + θ₃ := by
+  exact LOOConcentration.Revision.mainConcentration_source_assembly μ T L δ₁ δ₂ δ₃ c d h ε hε
+
+end LOOConcentration.Revision.Providers

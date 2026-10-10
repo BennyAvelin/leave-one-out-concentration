@@ -1,0 +1,728 @@
+{
+  "schema_version": 2,
+  "project": "LOOConcentration v3 Lean formalization",
+  "anchors": [
+    {
+      "id": "LOOConcentration.Features.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Foundations/Features.lean",
+      "export": "LOOConcentration.Features",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.features",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L242-L248",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "9221be409e4373746608d617c193dc9b078196e1500ea1539b6b77e37507dac1",
+      "declaration_sha256": "bff51c49432f3e73b64d9b1a6670de7d3b01bc2fdf536c04f65300a743e3e607",
+      "abi_sha256": "337eff27077e43db982ca4dc4d71a217823c2416d8a613f4c6f6716a35bfd94e",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user ok, 2026-10-02, exact foundation block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.Responses.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Foundations/Responses.lean",
+      "export": "LOOConcentration.Responses",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.responses",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L242-L248",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "49bbe4e01f365e059a14a804964dfb53166ff8d0a2a6f07f664f013cc1822e28",
+      "declaration_sha256": "85ab9a62b9e01ff45d24e73a8f7129d01f6954b3c3f88811beebcd3734f31518",
+      "abi_sha256": "7190c93c338885e5fe31ae60e2dd3ae92858d3285be24947804b93b862b504c5",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user ok, 2026-10-02, exact foundation block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.Observation.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Foundations/Observation.lean",
+      "export": "LOOConcentration.Observation",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.observation",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L242-L248",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "5d24a6bec8fd04001e92ae56e7a3161ab4f99a84378256dfa40bd53bb0a9d55a",
+      "declaration_sha256": "b3c1a7ee8c96f6f0e184ea8ba0428dc7d78658e4fb172c1c814054c78971e8ca",
+      "abi_sha256": "c2aa021edd5c3531b05a60eb8c3908b8c51fc759de41a3979a46859004fd4587",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user ok, 2026-10-02, exact foundation block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.Dataset.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Foundations/Dataset.lean",
+      "export": "LOOConcentration.Dataset",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.dataset",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L240-L245",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "72bf52d3189e59a80437c33a926c1e28d21690b1063133e12c4a2cf8c8ef990c",
+      "declaration_sha256": "62f7d183244b2d7b7867f5cc3976dd7e211eccc38fe4c14def04f455eb9ca3d9",
+      "abi_sha256": "7faad30caa0f2fdee7952249e9fe036f27e38c44a8f8120f3ed1e0b1b3d7d352",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user ok, 2026-10-02, exact foundation block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.Estimator.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Foundations/Estimator.lean",
+      "export": "LOOConcentration.Estimator",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.estimator",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L247-L250",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "3a9a091cec9c082a715bd7f43f02f791f8d374a2ecd309ab4cf3921e1d2e9700",
+      "declaration_sha256": "af96a579acc525c44509a5765b172e8dd9525dc0deb2cf322c8262d1ed5e4f99",
+      "abi_sha256": "293506cb5a2457028959d94a3989047faabbc58c0e35339e37433ce3caa68143",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user ok, 2026-10-02, exact foundation block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.deleteAt.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Foundations/DeleteAt.lean",
+      "export": "LOOConcentration.deleteAt",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.deleted-dataset",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L242-L245",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "86abe1bfa22200fd9a7a16da7077c25b53237cbf35c98e206aa0e48f5316f907",
+      "declaration_sha256": "611f48f67399276947edf486ea592020f2b2b1bc4761122f100880462476cb71",
+      "abi_sha256": "a4417cfcd47d7adc62d709750d9860afa943618436ecc0cf7a011e24550b9295",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user ok, 2026-10-02, exact foundation block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.looEstimate.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Foundations/LooEstimate.lean",
+      "export": "LOOConcentration.looEstimate",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.definition-LOO.empirical",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L241,L252-L259",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "8813b3dd39c707901a6cd702e5237a2ab1e4efb07d5680c897dd7132d3013915",
+      "declaration_sha256": "13e4bc9aafb4837bce496f7a8db5a72df485f8d18be3428b26c2e9ff2961bffe",
+      "abi_sha256": "65add756c4e04eee07e70f15a98b217b3c4f8c215d72a771933c3822d64724f4",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user ok, 2026-10-02, exact foundation block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.observationNormSq.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Norms/ObservationNormSq.lean",
+      "export": "LOOConcentration.observationNormSq",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.euclidean-observation-norm-sq",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L268-L269",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "69cf2cada5dee0a836a3d9ff34a179c989084a316ea2b7f06bbf6dc5731cb854",
+      "declaration_sha256": "7969b690e86c67031a0dcd4956cf91f1e7fe9a6f26f37ae1036bb5e466694764",
+      "abi_sha256": "87b57b8f8f862b18151004ad9b3bde974e8e3c2e659aa975791ddcaed2a6b61f",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user sure, 2026-10-02, exact Euclidean norm block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02, pre-freeze source review",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.datasetNormSq.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Norms/DatasetNormSq.lean",
+      "export": "LOOConcentration.datasetNormSq",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.euclidean-dataset-norm-sq",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L268-L269",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "7a5032ab1ef701c246feb32d37c07ef96091558d5fadec24faccfc15b28979da",
+      "declaration_sha256": "7799874a658244d466aee6dd0ea2f14ce50b6fac07ba8b39e011ea77ffd3e738",
+      "abi_sha256": "0656a7b31c997e6645f7f17c8ed4c1c4de1d174f851ae212955f1a73a59ae823",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user sure, 2026-10-02, exact Euclidean norm block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02, pre-freeze source review",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.observationNorm.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Norms/ObservationNorm.lean",
+      "export": "LOOConcentration.observationNorm",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.euclidean-observation-norm",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L268-L269",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "c6d1f97f712f8c08fb434af430c8f86578e48fa2fc41d2405719b579e473dc7f",
+      "declaration_sha256": "6478f07cc4f80c03eaa017b6f1cb40bdabda0b877120845813074048058f2953",
+      "abi_sha256": "9c1c186be9675a037e4de344a4be396b7162a25f1f66b2f1738611ed305d00da",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user sure, 2026-10-02, exact Euclidean norm block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02, pre-freeze source review",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.datasetNorm.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Norms/DatasetNorm.lean",
+      "export": "LOOConcentration.datasetNorm",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.euclidean-dataset-norm",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L268-L269",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "c261d0f3de2fa10e6e8661dd39f90fcdaa326af8bb17adfbe160d5779caeb859",
+      "declaration_sha256": "cefcd46118bb87d09d6527e8641047381ccb0ceef9a7f44357a5e05e39097e60",
+      "abi_sha256": "c39dce796e71c0d304e60559732edb238fed760adbad5feb60041266bb7201f8",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user sure, 2026-10-02, exact Euclidean norm block",
+      "independent_review": "reviewer: foundations_review, 2026-10-02, pre-freeze source review",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.fittedLoss.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Foundations/FittedLoss.lean",
+      "export": "LOOConcentration.fittedLoss",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.fitted-loss",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L241,L260-L265",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "f2cc30002c51419de16227d2f8dd900d6647274052b4fdfe7d634e35571fb6bf",
+      "declaration_sha256": "abdc7e759ca955d05a9ac2fb3e30438b0bf531a10d2630da9b52e779743d6157",
+      "abi_sha256": "86788cee965b6ac33487e6e7314f8151abb07ce83b53714eafe3464aa6c5ccc2",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user Approve exact command, 2026-10-02",
+      "independent_review": "reviewer: foundations_review, 2026-10-02, revised n+1 carrier PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.observationLocalSlope.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Slopes/ObservationLocalSlope.lean",
+      "export": "LOOConcentration.observationLocalSlope",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.observation-local-slope",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L268-L285",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "de238be99c5460811c2148a4326dd184a67f706458d0e0956aa472891bb4c492",
+      "declaration_sha256": "671f7c3f6ecf7972248450d66f441650e52f7b094d0731dd87f5bad61ecf93ee",
+      "abi_sha256": "fb1e42f669811b870aeab1f4775443d5c0bcd389f571cd8b0c6567b4c901b7d2",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user Approve both exact commands, 2026-10-02; standing approval for source-facing anchors reaffirmed",
+      "author_rulings": [
+        "k,m \u2265 1",
+        "real local slope on locally Lipschitz functions"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-02, revised real-slope commands PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.datasetLocalSlope.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Slopes/DatasetLocalSlope.lean",
+      "export": "LOOConcentration.datasetLocalSlope",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.dataset-local-slope",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L241,L268-L285,L335-L345",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "8d9fe822141c0c1ebe2d1dcf7b30af90d90324e686066ff514d00924406d92fe",
+      "declaration_sha256": "d3bd596fad7743e53d9895fa73627f141cd9576f636efba7b3e78927a1e30625",
+      "abi_sha256": "7d9f2404894493161ead9ace1e884f6dcee71b66c01a80f0c79dd24ca0c3ff01",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user Approve both exact commands, 2026-10-02; standing approval for source-facing anchors reaffirmed",
+      "author_rulings": [
+        "k,m \u2265 1",
+        "real local slope on locally Lipschitz functions"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-02, revised real-slope commands PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.Stable.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Stability/Stable.lean",
+      "export": "LOOConcentration.Stable",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.definition-standing",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L241,L335-L345",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "578d01c0e71968f91ac2d529be05d1d4ef82f3b601fe8b06cd64973ee8857454",
+      "declaration_sha256": "4b6b068f2b9bf79c7da512d3cfd8e47047b9d19e58db8472b02cd00d4a19af62",
+      "abi_sha256": "ff63073776eea53a6e5080962128d8db1dee73b5a098e50f5b55bb9965667f30",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for all source-facing declarations and main theorem anchors, 2026-10-02",
+      "author_rulings": [
+        "k,m \u2265 1",
+        "real local slope on locally Lipschitz functions"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-02, revised source definition PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.HasLogSobolev.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/FunctionalInequalities/HasLogSobolev.lean",
+      "export": "LOOConcentration.HasLogSobolev",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.fixed-C-LSI-core",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L273-L289",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "1caaefe69c514bdacb5f0694a8d8893127923749abf6f8c0c0d70202dd95229a",
+      "declaration_sha256": "0aff4c2b06414c7e9fd41a416d21add48e5e0e1c914374aa4c2954903165ed11",
+      "abi_sha256": "a0d509f51a817dfba80f21fc3b8e8bb65a38f727ea423758e2f0952de5645837",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for source-facing declarations, 2026-10-02",
+      "author_rulings": [
+        "k,m \u2265 1",
+        "real local slope on locally Lipschitz functions",
+        "finite energy premise is squared local-slope integrability; u squared integrability is a conclusion"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-02, fixed-C core PASS; truncation sentence separate",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.meanFittedLoss.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Probability/MeanFittedLoss.lean",
+      "export": "LOOConcentration.meanFittedLoss",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.mean-fitted-loss-pointwise",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L240-L241,L378-L382",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "63a765994384d77f146e21d35c218bff657436d8bc6887285bb4dffeaeeae7c4",
+      "declaration_sha256": "58dea77d151d24443e18dd82eea68a4f99c6525bde0d00d22251f4e1a7262133",
+      "abi_sha256": "7ecf10f6e3177716879dcc663a1e869cd332b3b3cace2b28aae72bd6527f0085",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for source-facing declarations, 2026-10-02",
+      "author_rulings": [
+        "k,m \u2265 1",
+        "signed real expectation restricted to pointwise integrable fitted losses"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-02, revised pointwise definition PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.StandingAssumption.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Stability/StandingAssumption.lean",
+      "export": "LOOConcentration.StandingAssumption",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.assumption-standing",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L241,L273-L289,L335-L345,L378-L397",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "4845a92c0b940d3c51ca1df184ece217acc4a66592288748f4be55c9441dae37",
+      "declaration_sha256": "45850cdcc53a28bb8c3e78d22cf3cc4684080f9ef26cb38cc64872cf7c6c822d",
+      "abi_sha256": "2030940f0fd512012ac897ed30c27ae460677554d6d14cdae026fd5eabc4f77c",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for all source-facing declarations and main theorem anchors, 2026-10-02",
+      "author_rulings": [
+        "k,m \u2265 1",
+        "real local slope on locally Lipschitz functions",
+        "finite energy premise is squared local-slope integrability",
+        "line 289: apply fixed LSI after proving bounded truncation class membership"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-02, expanded source assumption PASS under line-289 ruling",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.thetaRate.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Concentration/ThetaRate.lean",
+      "export": "LOOConcentration.thetaRate",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.theta-general",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L272,L289,L442-L448",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "0bd0e0ed0b4d111f7fbb4cc6d83159a477bf1f56b2dd0e9125103f23f3522f60",
+      "declaration_sha256": "01343e4046d51393506ffcd72e166fddb93343b1574e7e99ef5c95deabe96ac9",
+      "abi_sha256": "c2f1b273ffe68cdd3afcf9bb2733f946aa09cc55879fae4b5f87f4dc29f749bd",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for source-facing declarations and main theorem anchors, 2026-10-02",
+      "independent_review": "reviewer: foundations_review, 2026-10-02, all zero-denominator branches PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.looRiskL1.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Probability/LooRiskL1.lean",
+      "export": "LOOConcentration.looRiskL1",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.conditional-risk",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L241-L257",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "fe05f1ec2225c3d7e465c6cc7e3992b7d4a1a05d3507c984af6db81cb77307de",
+      "declaration_sha256": "8e0a6c9fc26f61743a4663c66476114f645203efc9e46226f322c3bf50ec6bcb",
+      "abi_sha256": "97f22d1f071c2fd4ff4e8ea82e7f280efdca3394984a4c247e48ac729010502f",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for source-facing declarations and main theorem anchors, 2026-10-02",
+      "author_rulings": [
+        "k,m \u2265 1"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-03, semantic unit PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.looRiskL1_characterization.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Probability/LooRiskL1Characterization.lean",
+      "export": "LOOConcentration.looRiskL1_characterization",
+      "kind": "theorem",
+      "state": "FROZEN_PROVED",
+      "contract": {
+        "id": "LOOConcentration.v3.conditional-risk-characterization",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L241-L257",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "4cdb67eb2b681ab53b958eaea1decd19594c5fcc00325dc960f7d294bd9e7116",
+      "declaration_sha256": "73d8df73ffd4e34a2e8bdd5bfbc0f5146aedaa977b88eddac907b917fd7888ac",
+      "abi_sha256": "88159d382e90824406ec96283143077c5d41caf47eaa1ef7ae6bf68dfcaec4b0",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for source-facing declarations and main theorem anchors, 2026-10-02",
+      "author_rulings": [
+        "k,m \u2265 1"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-03, semantic unit PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.looRiskL1_unique.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Probability/LooRiskL1Unique.lean",
+      "export": "LOOConcentration.looRiskL1_unique",
+      "kind": "theorem",
+      "state": "FROZEN_PROVED",
+      "contract": {
+        "id": "LOOConcentration.v3.conditional-risk-uniqueness",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L241-L257",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "da2e0a91d43172619a0118a158ecb4a082303c983a7a84b28638686cde974300",
+      "declaration_sha256": "8b0362be670f70885e48ae36102b9a254f76b946acb8d4ac05a8d4434404b636",
+      "abi_sha256": "dadaeef58d3c4c5a6fad01c0f3204c3f4afedc6679a0252ea05557c2c5859ede",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for source-facing declarations and main theorem anchors, 2026-10-02",
+      "author_rulings": [
+        "k,m \u2265 1"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-03, semantic unit PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.dataDependentConcentration.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Results/DataDependentConcentration.lean",
+      "export": "LOOConcentration.dataDependentConcentration",
+      "kind": "theorem",
+      "state": "FROZEN_PROVED",
+      "contract": {
+        "id": "LOOConcentration.v3.thm-data-dependent",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L241-L257,L268-L289,L513-L533",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "f1c776951173aae8fd0b90171d4ef96a2b1bb531f40ae085a9fe0ac88ba5aa78",
+      "declaration_sha256": "b548cc49812a557feed0a167512c28780a7955ed6cd9090893f62b959e697e9b",
+      "abi_sha256": "86a2ca56f52ce34715ffb828890cbe7eb6d9a5b22c41ec2d65a693f00fef61de",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for source-facing declarations and main theorem anchors, 2026-10-02",
+      "author_rulings": [
+        "k,m \u2265 1",
+        "real local slope on locally Lipschitz functions",
+        "finite energy premise is squared local-slope integrability",
+        "line 289: apply fixed LSI after proving bounded truncation class membership"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-03, revised pointwise-H five-bin audit PASS",
+      "quarantine": false,
+      "provider": {
+        "path": "LOOConcentration/formal/LOOConcentration/Results/Providers/DataDependentConcentration.lean",
+        "export": "LOOConcentration.Providers.dataDependentConcentration"
+      },
+      "approval_baseline": {
+        "snapshot": "orchestration/snapshots/a26575cdf354334e5db717843f41e6fcd8c41c3b53e8f7cce8a4ced1e5a81f20",
+        "original_file_sha256": "3b454614d28f1820c0715d4bdf2b4db4a18e7e1c06d3e3c206bbbf093e40f2c8",
+        "original_declaration_sha256": "b7b203cc489c677ee04e5232e440146e2dad8494f0a6b9c262cd83182dcd94bc",
+        "original_abi_sha256": "41763dfcbb3450600d4d089aa0b781be3c21f920622a175390f97d9990cef19f",
+        "header_without_proof_sha256": "3bcec3211c15e5f7c71ca8ab3f6cfed96f41f12eb8656436d7194796670db595"
+      },
+      "proof_seal_record": "LOOConcentration/formal/orchestration/seals/data-dependent-2026-10-03.json",
+      "proof_review": {
+        "verdict": "PASS",
+        "path": "LOOConcentration/formal/orchestration/audits/data-dependent-seal-2026-10-03.md",
+        "sha256": "e81169ef60bffbdeac838841a42fc1ea629f59e334f838286d8a50703c804c82",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "low",
+        "source_declaration_audit": "LOOConcentration/formal/orchestration/audits/data-dependent-declaration-2026-10-03.md",
+        "provider_audit": "LOOConcentration/formal/orchestration/audits/data-dependent-provider-2026-10-03.md",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "id": "LOOConcentration.olsPrediction.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Examples/OlsPrediction.lean",
+      "export": "LOOConcentration.olsPrediction",
+      "kind": "definition",
+      "state": "FROZEN_DEFINED",
+      "contract": {
+        "id": "LOOConcentration.v3.ols-prediction",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L598-L603,L613-L620",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "c09520f59eca2ebf9eec1f1df32ea7bd3420f85caa693e33acdd189cfbb80ba8",
+      "declaration_sha256": "658ca7355c121c597fda3c280119381f4d79af3b4abf9991b95fe48c70634889",
+      "abi_sha256": "10b2ee5655087ad0ea23ad2b63443ee810bb5d2383c21dee1bd649f12aa0be53",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for source-facing declarations and main theorem anchors, 2026-10-02",
+      "author_rulings": [
+        "OLS predictor carrier contains at least two observations; zero-design slope is the allowed measurable extension"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-03, revised literal definition PASS",
+      "draft_body_policy": "forbidden",
+      "quarantine": false
+    },
+    {
+      "id": "LOOConcentration.olsConcentration.v1",
+      "path": "LOOConcentration/formal/LOOConcentration/Frozen/Results/OlsConcentration.lean",
+      "export": "LOOConcentration.olsConcentration",
+      "kind": "theorem",
+      "state": "FROZEN_PROVED",
+      "contract": {
+        "id": "LOOConcentration.v3.cor-ols",
+        "version": "1"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2211.02478",
+        "audit_basis": "historical_source_not_in_repository",
+        "historical_locator": "L598-L698",
+        "historical_sha256": "80615c3bb30d5423fd6e25b3207e9fe1681f59cc26f880bab2299fd2a412fee9"
+      },
+      "file_sha256": "7d268ba8aca1d91fe87e8a3f85bc708685dd9674cedba76fdf677237f10834c3",
+      "declaration_sha256": "7b136d8c21fd22c5b65f4a0e48eec4300ae36ab881f2dbaa99010e2787275384",
+      "abi_sha256": "bba751c16adf57461a4ad5200975b109d573b2971f415c7221a97a97b1580193",
+      "abi_method": "Lean 4.33.1 #print with pp.all true; UTF-8; LF; one trailing LF",
+      "author_approval": "user standing approval for source-facing declarations and main theorem anchors, 2026-10-02",
+      "author_rulings": [
+        "OLS predictor carrier contains at least two observations; zero-design slope is the allowed measurable extension"
+      ],
+      "independent_review": "reviewer: foundations_review, 2026-10-03, five-bin source audit PASS",
+      "quarantine": false,
+      "provider": {
+        "path": "LOOConcentration/formal/LOOConcentration/Results/Providers/OlsConcentration.lean",
+        "export": "LOOConcentration.Providers.olsConcentration"
+      },
+      "approval_baseline": {
+        "file_sha256": "061336a1385c2caaba2ccbae9a36710312d922ae9c8b87c01ef8af27ebd5a75a",
+        "declaration_sha256": "b9aa8277127211d1b73fa535274942c6ff0ecdd81798ca1329a22d997bca3577",
+        "abi_sha256": "7ad380b08ca4e4623d82faa9748114e51ef9e40a737259f74ca77cad25162e30"
+      },
+      "proof_review": {
+        "verdict": "PASS",
+        "path": "LOOConcentration/formal/orchestration/audits/ols-concentration-seal-2026-10-03.md",
+        "sha256": "060f458ba23cb7f52b3909b124b19ab7ae6e42d1d805c1140fd1b50d2fe056b4",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "low",
+        "source_declaration_audit": "LOOConcentration/formal/orchestration/audits/ols-declaration-2026-10-03.md",
+        "provider_audit": "LOOConcentration/formal/orchestration/audits/ols-concentration-provider-2026-10-03.md",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "proof_seal_record": "LOOConcentration/formal/orchestration/seals/ols-concentration-2026-10-03.json"
+    }
+  ],
+  "scope": "Historical frozen declarations required by the revised manuscript import closure"
+}

@@ -1,0 +1,11 @@
+Leave-one-out concentration in Lean
+Copyright 2026 Benny Avelin, Lauri Viitasaari, and contributors
+
+This formalization accompanies the mathematical work of Benny Avelin and
+Lauri Viitasaari, authors of "Concentration inequalities for leave-one-out
+cross-validation" (https://arxiv.org/abs/2211.02478).
+
+Project code and documentation are licensed under the Apache License,
+Version 2.0. See LICENSE. The manuscript is not included in this distribution;
+its copyright remains with its authors. Dependencies retain their own
+licenses and attribution notices; see DEPENDENCIES.md in the public release.

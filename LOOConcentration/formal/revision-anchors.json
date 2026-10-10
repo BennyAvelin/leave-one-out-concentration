@@ -1,0 +1,380 @@
+{
+  "anchors": [
+    {
+      "export": "LOOConcentration.Manuscript.empiricalMean",
+      "path": "LOOConcentrationManuscript/Frozen/Definitions/EmpiricalMean.lean",
+      "sha256": "82c2bab2e346a3d7e8e4aa86c47006cd02ebdb55fbb4b5b77ab8588f0e1a2a2a",
+      "state": "FROZEN_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.subexponential_average_concentration",
+      "path": "LOOConcentrationManuscript/Frozen/Results/SubexponentialAverageConcentration.lean",
+      "sha256": "954de7002ec50500272e88e51565b06b3b31a6cf4a99da55684d1a62a4502e3e",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.empiricalMean_absoluteLoss_lipschitz",
+      "path": "LOOConcentrationManuscript/Frozen/Results/EmpiricalMeanAbsoluteLossLipschitz.lean",
+      "sha256": "9e03e5acc2c1879e2d976edadd9ee162cb84bb279752cff8c2d63af233312138",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.empiricalMean_quadraticLoss_gradient_bound",
+      "path": "LOOConcentrationManuscript/Frozen/Results/EmpiricalMeanQuadraticLossGradient.lean",
+      "sha256": "7ee114de39368709012096c3da242e46b1fb27f72cb047f7eb52d1127e820a87",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.expected_loss_segment_bound",
+      "path": "LOOConcentrationManuscript/Frozen/Bridges/ExpectedLossSegmentBound.lean",
+      "sha256": "1d8ab646b5b8af4404af925ff875502ee172674443f4d620f92034736648ab01",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.empiricalMean_quadraticRisk_formula",
+      "path": "LOOConcentrationManuscript/Frozen/Results/EmpiricalMeanQuadraticRiskFormula.lean",
+      "sha256": "679ab80c4be5e112deed9f5075f9c1ee09f69d93b19365ab00094c8b72c516cc",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.empiricalMean_expectedQuadraticLoss_derivative",
+      "path": "LOOConcentrationManuscript/Frozen/Results/EmpiricalMeanExpectedQuadraticLossDerivative.lean",
+      "sha256": "38abe8252042629cfa333bf7b003ac8612dd30f8311e3de323559750693d9e70",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.empiricalMean_quadraticLoss_delete_bias",
+      "path": "LOOConcentrationManuscript/Frozen/Results/EmpiricalMeanQuadraticLossDeleteBias.lean",
+      "sha256": "2812b86127c0e076815ad59d97a08331abc77d1f6535fc024b41cb13ea49b34e",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.coordinateClip",
+      "path": "LOOConcentrationManuscript/Frozen/Definitions/CoordinateClip.lean",
+      "sha256": "1edca1d82bddc057342cfbe86a57a7d612b9c6a3464d1fde8e61b585db1afaae",
+      "state": "FROZEN_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.kernelDensityEstimator",
+      "path": "LOOConcentrationManuscript/Frozen/Definitions/KernelDensityEstimator.lean",
+      "sha256": "0a034477852cf2996a2e8f3e7be011c1065cc5201753e320f3458dac4aacd6fc",
+      "state": "FROZEN_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.stabilizedKernelEstimator",
+      "path": "LOOConcentrationManuscript/Frozen/Definitions/StabilizedKernelEstimator.lean",
+      "sha256": "5f3c1e44555d3151f6a238ae08128903b91b99b4ba63734188881bb705ee6480",
+      "state": "FROZEN_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.stabilizedLinearEstimator",
+      "path": "LOOConcentrationManuscript/Frozen/Definitions/StabilizedLinearEstimator.lean",
+      "sha256": "b70f6275bd6a64253bf0164b35d026d187f367b542868c3a1dd2dca4172d62d9",
+      "state": "FROZEN_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.empiricalMean_absoluteLoss_delete_bias",
+      "path": "LOOConcentrationManuscript/Frozen/Results/EmpiricalMeanAbsoluteLossDeleteBias.lean",
+      "sha256": "05f636b73a81f556390f0e198b1016809883cff655fb24581fa4376463350bbf",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.empiricalMean_expectedAbsoluteLoss_lipschitz",
+      "path": "LOOConcentrationManuscript/Frozen/Results/EmpiricalMeanExpectedAbsoluteLossLipschitz.lean",
+      "sha256": "06666fbf59914c3a7edf1c19cd5d57a9dafdc45d9591a22a7e7131b74c55d4bf",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.empiricalMean_quadratic_scalar_main_application",
+      "path": "LOOConcentrationManuscript/Frozen/Results/EmpiricalMeanQuadraticScalarMainApplication.lean",
+      "sha256": "8465745afb3ec0dd1ddd67fb0820786227a1a629792b97ec146f386c480ab71e",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.uniformDeletionExpectedBias",
+      "path": "LOOConcentrationManuscript/Frozen/Results/UniformDeletionExpectedBias.lean",
+      "sha256": "b955926b51f2ae6a02aeada87c71f93c0e9d10c2ad7564e45dd7fd7b7c5975ea",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.modelSelection_main_concentration_and_sign",
+      "path": "LOOConcentrationManuscript/Frozen/Results/ModelSelectionMainConcentrationAndSign.lean",
+      "sha256": "6fe165fb9da3f3a6fb5caf4a4333a41489bfd43ac3d451bde77fdebc0d1b1383",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.modelSelection_simplified_concentration_and_sign",
+      "path": "LOOConcentrationManuscript/Frozen/Results/ModelSelectionSimplifiedConcentrationAndSign.lean",
+      "sha256": "72be3e9824bd0501b61811b520f5a32d21eb99ea6a8a365fcce648ec2f60f125",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.modelSelection_asymptotic_concentration_and_sign",
+      "path": "LOOConcentrationManuscript/Frozen/Results/ModelSelectionAsymptoticConcentrationAndSign.lean",
+      "sha256": "d1e95a154d7ff65bb5d1e8f023c36a8530bb8c621b490d4767c6c8c1e2fd06e3",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Manuscript.modelSelection_conditioned_concentration_and_sign",
+      "path": "LOOConcentrationManuscript/Frozen/Results/ModelSelectionConditionedConcentrationAndSign.lean",
+      "sha256": "28408e772294dac96f425adeb69e5ab4d07bb8bcb3e17d1394c186086e87455c",
+      "state": "FROZEN_PROVED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.observationOfEuclidean",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/ObservationOfEuclidean.lean",
+      "sha256": "4ffa0269639e3c35a49b10a2f839f9c230f0461e5fc50726edbfff70e3fb209f",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.datasetOfEuclidean",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/DatasetOfEuclidean.lean",
+      "sha256": "7556022c96550475ebe7d6999a375da8650fa65bcf84319333c256c3e7e6a557",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.smoothSobolevPairs",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/SmoothSobolevPairs.lean",
+      "sha256": "08e3b49588f6f80edd61f12de7f8da003117f3797b34234fb9ecbe56f52782f6",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.SobolevPair",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/SobolevPair.lean",
+      "sha256": "59ecdc2760df36147653f4496b47ff5980ddc27413b5e1c74659f7efe2663041",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.sobolevEnergy",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/SobolevEnergy.lean",
+      "sha256": "eeba8418592fffdcdde3dbc60c1d1031e8895780e4473e516f59c47d323fc820",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.squareEntropy",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/SquareEntropy.lean",
+      "sha256": "f572cf4027fc3fa4194403cbe607bb42762fb5b86d4f780dcb915c527dcb6674",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.logSobolevConstant",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/LogSobolevConstant.lean",
+      "sha256": "dc4424804f9494ddcc5821e0967ea1aa7b33b03f243638267a7c2ce4a87d8187",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.measurable_observationToEuclidean",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/Measurable_observationToEuclidean.lean",
+      "sha256": "403b30c36e74c73663a4caca5cfb8a464e9be3c44ffeb8fc13131db4d404d4bc",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.observationLogSobolevConstant",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/ObservationLogSobolevConstant.lean",
+      "sha256": "2e46f82936cb72e1bf463bd5c6788e807b80d70c05f815299313a71c73277a91",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.meanFittedLoss",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/MeanFittedLoss.lean",
+      "sha256": "2b71f509547ece9bd5fbf60b69aeac2ec9beb89ab0418da813deff5c00337d1d",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.looRiskL1",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/LooRiskL1.lean",
+      "sha256": "40435fe78077972cd78ad551dc8487292be72234dc26a8a0a1957a8e50293ed2",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.Stable",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/Stable.lean",
+      "sha256": "7c471a4c7883029ce6ae521ca7c3c78a26ac3459bb662e4b3a985d50706773af",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.StandingAssumption",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/StandingAssumption.lean",
+      "sha256": "8b97dbfdc2b027dbf0370998624e84531648fed88305f017782d8e766a6576ab",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.looRiskL1_characterization",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/LooRiskL1_characterization.lean",
+      "sha256": "e7ad225a0ab5d2d1233baf67e34aa18bff8e183fcff2134bcf5ecc448b9e6583",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.looRiskL1_unique",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/LooRiskL1_unique.lean",
+      "sha256": "0950d2e6c93b8cd56d101a92e068f520ba8d73c4984d9c6f523b8a0de4191e66",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.thetaRate",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/ThetaRate.lean",
+      "sha256": "cd81382bf81ef1c5f5536f80c3b8eb92786df37a51895af88256097d21aadbfb",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.logSobolevConstant_inequality",
+      "path": "LOOConcentrationRevision/Frozen/Bridges/LogSobolevConstant_inequality.lean",
+      "sha256": "5c4d3abb1c233dd6dff442ecf60eb7da6569cfd4d3c5603b9fa8682a2feee5b6",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.bounded_truncation_admission",
+      "path": "LOOConcentrationRevision/Frozen/Bridges/Bounded_truncation_admission.lean",
+      "sha256": "8e30a93b85fd5e733e9b1c91e4dd7253924425639eda32456dcfd6c6680b5b7a",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.ae_gradient_segment_estimate",
+      "path": "LOOConcentrationRevision/Frozen/Bridges/Ae_gradient_segment_estimate.lean",
+      "sha256": "7fb9b6d829f5ba0c962b2f9e138d32b1719c9c0bb74818cf856ab479e04f6292",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.mainConcentration",
+      "path": "LOOConcentrationRevision/Frozen/Results/MainConcentration.lean",
+      "sha256": "66da4ee7795f5f19d5821dfe2cb0824f9354ca17ed49c4ddcd02d8b42f6b7ea8",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.simplifiedConcentration",
+      "path": "LOOConcentrationRevision/Frozen/Results/SimplifiedConcentration.lean",
+      "sha256": "4cbd412a8718112bc201f15ca26b26bda394c6b86ca675db2e1433d84b7c61bf",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.looMoments",
+      "path": "LOOConcentrationRevision/Frozen/Results/LooMoments.lean",
+      "sha256": "2408f6045b06fa25b54d493bd10a973ad782b9fd60cddd7673a2937fdb9b715e",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.Revision.dataDependentConcentration",
+      "path": "LOOConcentrationRevision/Frozen/Results/DataDependentConcentration.lean",
+      "sha256": "52b5d2350b066bd8e2e3f004a9e920f2a4b0d3b6815eef8c5f67580e6c4c3b82",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "export": "LOOConcentration.olsConcentration",
+      "path": "LOOConcentration/Frozen/Results/OlsConcentration.lean",
+      "sha256": "7d268ba8aca1d91fe87e8a3f85bc708685dd9674cedba76fdf677237f10834c3",
+      "state": "RELEASED_PROVED_OR_DEFINED",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    }
+  ],
+  "correspondence_axiom_exports": [
+    "LOOConcentration.Correspondence.coordinateDifferenceQuotient",
+    "LOOConcentration.Correspondence.coordinateDerivativeRepresentative",
+    "LOOConcentration.Correspondence.partialGradientNormRepresentative",
+    "LOOConcentration.Correspondence.measurable_coordinateDifferenceQuotient",
+    "LOOConcentration.Correspondence.measurable_coordinateDerivativeRepresentative",
+    "LOOConcentration.Correspondence.measurable_partialGradientNormRepresentative",
+    "LOOConcentration.Correspondence.coordinateDerivativeRepresentative_eq_fderiv",
+    "LOOConcentration.Correspondence.partialGradientNormRepresentative_eq_gradient_norm",
+    "LOOConcentration.Correspondence.locallyLipschitz_ae_differentiableAt",
+    "LOOConcentration.Correspondence.locallyLipschitz_section_ae_nativeGradient_bound",
+    "LOOConcentration.Correspondence.nativeGradient_ae_bound_to_representative_ae_bound",
+    "LOOConcentration.Correspondence.ae_ae_exchange_imp",
+    "LOOConcentration.Correspondence.ae_ae_exchange_real_rates",
+    "LOOConcentration.Correspondence.candidateGradientVector",
+    "LOOConcentration.Correspondence.candidateContinuousLinearMap",
+    "LOOConcentration.Correspondence.measurable_candidateGradientVector",
+    "LOOConcentration.Correspondence.measurable_candidateContinuousLinearMap",
+    "LOOConcentration.Correspondence.candidateGradientVector_eq_gradient",
+    "LOOConcentration.Correspondence.candidateContinuousLinearMap_eq_fderiv",
+    "LOOConcentration.Correspondence.differentiableAt_hasFDerivAt_candidate",
+    "LOOConcentration.Correspondence.locallyLipschitz_section_ae_hasFDerivAt_candidate",
+    "LOOConcentration.Revision.sectionCutoff",
+    "LOOConcentration.Revision.sectionCutoff_measurable",
+    "LOOConcentration.Revision.sectionCutoff_locallyLipschitz",
+    "LOOConcentration.Revision.sectionCutoff_continuous",
+    "LOOConcentration.Revision.sectionCutoff_eq_on_good",
+    "LOOConcentration.Revision.sectionCutoff_differentiableAt_iff",
+    "LOOConcentration.Revision.sectionCutoff_gradient_eq",
+    "LOOConcentration.Revision.exists_measurable_full_sectionCutoff",
+    "LOOConcentration.Correspondence.measurableSet_hasFDerivAt_with_param",
+    "LOOConcentration.Correspondence.measurableSet_hasFDerivAt_constantSection_emptyIndex",
+    "LOOConcentration.Correspondence.data_first_nativeGradient_to_observation_first",
+    "LOOConcentration.Correspondence.data_first_fittedLoss_to_stable_gradient_loss",
+    "LOOConcentration.Correspondence.mean_gradient_iff_native_bound",
+    "LOOConcentration.Correspondence.jointlyMeasurable_locallyLipschitz_ae_ae_differentiableAt",
+    "LOOConcentration.Correspondence.observation_first_gradient_iff_data_first_bound",
+    "LOOConcentration.Correspondence.stable_gradient_loss_iff_manuscript_bound",
+    "LOOConcentration.Correspondence.stable_iff_manuscript_clauses",
+    "LOOConcentration.Correspondence.standingAssumption_iff_manuscript_clauses",
+    "LOOConcentration.Revision.mainConcentration_of_manuscript_clauses",
+    "LOOConcentration.Revision.looMoments_of_manuscript_clauses",
+    "LOOConcentration.Revision.simplifiedConcentration_of_manuscript_clauses",
+    "LOOConcentration.Revision.observationOfEuclidean",
+    "LOOConcentration.Revision.datasetOfEuclidean",
+    "LOOConcentration.Revision.smoothSobolevPairs",
+    "LOOConcentration.Revision.SobolevPair",
+    "LOOConcentration.Revision.sobolevEnergy",
+    "LOOConcentration.Revision.squareEntropy",
+    "LOOConcentration.Revision.logSobolevConstant",
+    "LOOConcentration.Revision.measurable_observationToEuclidean",
+    "LOOConcentration.Revision.observationLogSobolevConstant",
+    "LOOConcentration.Revision.meanFittedLoss",
+    "LOOConcentration.Revision.looRiskL1",
+    "LOOConcentration.Revision.Stable",
+    "LOOConcentration.Revision.StandingAssumption",
+    "LOOConcentration.Revision.looRiskL1_characterization",
+    "LOOConcentration.Revision.looRiskL1_unique",
+    "LOOConcentration.Revision.thetaRate",
+    "LOOConcentration.Revision.logSobolevConstant_inequality",
+    "LOOConcentration.Revision.bounded_truncation_admission",
+    "LOOConcentration.Revision.ae_gradient_segment_estimate",
+    "LOOConcentration.Revision.mainConcentration",
+    "LOOConcentration.Revision.simplifiedConcentration",
+    "LOOConcentration.Revision.looMoments",
+    "LOOConcentration.Revision.dataDependentConcentration",
+    "LOOConcentration.olsConcentration"
+  ]
+}
