@@ -189,9 +189,9 @@ import LOOConcentrationManuscript.ModelSelection
 
 ## Guarantees
 
-- **Complete production proofs.** All 560 production modules build, with no
+- **Complete production proofs.** All 561 production modules build, with no
   `sorry` or custom `axiom` in the library.
-- **Axiom audit.** The 86 audited exports and four challenge solutions depend
+- **Axiom audit.** The 87 audited exports and four challenge solutions depend
   only on `propext`, `Classical.choice` and `Quot.sound`.
 - **Exact exercises.** The four challenges have the same theorem headers as
   the library results; their elaborated types are checked against them.

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "role": "Exercise packaging; not new frozen anchors or proof progress",
   "namespace": "LOOConcentration.Revision.Challenges",
-  "frozen_manifest_sha256": "cd89e122ff93527d10ed17069d5026fda65420bc4bfcf00298cc120478cee368",
+  "frozen_manifest_sha256": "8ef3bc7c4fb247c8aab4940cef2ec606bee3efade6a741242eceea93770b4a5d",
   "lean_toolchain": "leanprover/lean4:v4.33.1",
   "lake_manifest_sha256": "a4bfe90e01b26dba6ae953a5b7eb28c4980a408e959f7caebfe558f96d36af93",
   "challenge_sha256": "d08ea1b62482d5155a304935a9351fc957fcb1087c6f498fbee9210712d014ad",

@@ -307,6 +307,32 @@
       "sha256": "7d268ba8aca1d91fe87e8a3f85bc708685dd9674cedba76fdf677237f10834c3",
       "state": "RELEASED_PROVED_OR_DEFINED",
       "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804"
+    },
+    {
+      "id": "LOOConcentration.Revision.exists_unique_conditional_risk.v1",
+      "export": "LOOConcentration.Revision.exists_unique_conditional_risk",
+      "path": "LOOConcentrationRevision/Frozen/Definitions/LooRiskL1WellDefined.lean",
+      "kind": "theorem",
+      "state": "FROZEN_PROVED",
+      "sha256": "e7f02a25556b5bcbc5bcd8ec0f758ff76b3de08b1b347d2424338af94a13333c",
+      "declaration_sha256": "e78a6140ec4ab1a8b0e0d07f00f48d30398cc03e32cf372c7e0acb691f073f15",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804",
+      "source_ranges": [
+        [
+          269,
+          285
+        ],
+        [
+          367,
+          373
+        ]
+      ],
+      "author_approval": {
+        "date": "2026-10-10",
+        "command_sha256": "e78a6140ec4ab1a8b0e0d07f00f48d30398cc03e32cf372c7e0acb691f073f15",
+        "record_sha256": "65e2036379e928e0739ee98cdbc027357683dc30782bcbd317e5752986d71fdc"
+      },
+      "semantic_unit_id": "LOOConcentration.Revision.conditionalRisk.v2"
     }
   ],
   "correspondence_axiom_exports": [
@@ -376,5 +402,34 @@
     "LOOConcentration.Revision.looMoments",
     "LOOConcentration.Revision.dataDependentConcentration",
     "LOOConcentration.olsConcentration"
+  ],
+  "semantic_units": [
+    {
+      "id": "LOOConcentration.Revision.conditionalRisk.v2",
+      "well_definedness": {
+        "id": "LOOConcentration.Revision.exists_unique_conditional_risk.v1",
+        "export": "LOOConcentration.Revision.exists_unique_conditional_risk",
+        "path": "LOOConcentrationRevision/Frozen/Definitions/LooRiskL1WellDefined.lean",
+        "sha256": "e7f02a25556b5bcbc5bcd8ec0f758ff76b3de08b1b347d2424338af94a13333c"
+      },
+      "construction": "Explicit independent-test integral as a sample-law L1 class, definitionally equal to the well-definedness witness construction.",
+      "consumer_policy": "Conditional-risk consumers use the complete characterization and uniqueness exports.",
+      "source_sha256": "4d83a9d8a5eaaebd46dcf7af522cab5030aa88c20a68e2043260cfa319830804",
+      "definition": {
+        "export": "LOOConcentration.Revision.looRiskL1",
+        "path": "LOOConcentrationRevision/Frozen/Definitions/LooRiskL1.lean",
+        "sha256": "40435fe78077972cd78ad551dc8487292be72234dc26a8a0a1957a8e50293ed2"
+      },
+      "characterization": {
+        "export": "LOOConcentration.Revision.looRiskL1_characterization",
+        "path": "LOOConcentrationRevision/Frozen/Definitions/LooRiskL1_characterization.lean",
+        "sha256": "e7ad225a0ab5d2d1233baf67e34aa18bff8e183fcff2134bcf5ecc448b9e6583"
+      },
+      "uniqueness": {
+        "export": "LOOConcentration.Revision.looRiskL1_unique",
+        "path": "LOOConcentrationRevision/Frozen/Definitions/LooRiskL1_unique.lean",
+        "sha256": "0950d2e6c93b8cd56d101a92e068f520ba8d73c4984d9c6f523b8a0de4191e66"
+      }
+    }
   ]
 }

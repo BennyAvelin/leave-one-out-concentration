@@ -9,7 +9,7 @@ not automatically certify other versions.
 
 ## Scope and correspondence
 
-The production library consists of exactly 560 modules in the project import closure of the four entry points documented in the [README](README.md). This includes the core interfaces, estimator proofs, supplementary uniform-deletion result, and four model-selection exports. There are no authorized production proof holes or custom axioms. The separate theorem challenge template has four intentional exercise holes.
+The production library consists of exactly 561 modules in the project import closure of the four entry points documented in the [README](README.md). This includes the core interfaces, estimator proofs, supplementary uniform-deletion result, and four model-selection exports. There are no authorized production proof holes or custom axioms. The separate theorem challenge template has four intentional exercise holes.
 
 The release retains 149 modules in `LOOConcentration/` solely as required proof dependencies. These include the OLS theorem and its data-dependent concentration dependency. Modules from earlier development are retained only where required by the manuscript interfaces and extensions. Required dependency declarations preserve their exact previously frozen statements.
 
@@ -27,17 +27,18 @@ python3 scripts/ci.py
 ```
 
 CI verifies the exact source allowlist and import closure, rejects production
-holes and custom axioms, checks clean pinned dependencies, builds all 560
+holes and custom axioms, checks clean pinned dependencies, builds all 561
 production modules, verifies 25 retained dependency file/command/ABI pins, and
-audits 86 interface/correspondence exports. It also checks the four challenge
+audits 87 interface/correspondence exports. It also checks the four challenge
 and solution types, standard-only solution axioms, and ten comparator
 regressions, then rechecks source and dependency pins. Fetch the pinned caches
 first: the checker stops if it observes upstream compilation.
 
-The release was verified with initially empty project artifacts and a separate
-copy of existing pinned dependency caches. This did not test a first-time
-network cache download. All nine dependency checkouts and their cached
-artifacts remained unchanged during validation.
+The preceding 560-module release was verified with initially empty project
+artifacts and a separate copy of pinned dependency caches, then passed hosted
+CI including network dependency setup. The conditional-risk extension adds one
+independently checked theorem; the complete 561-module checks were rerun using
+warm project artifacts. All nine dependency pins remain unchanged.
 
 The pinned GitHub Actions workflow runs the same complete checker. Generated
 reports are excluded from version control and written under
@@ -56,3 +57,7 @@ Protected dependency files retain original comment-only manuscript filenames and
 See the [README](README.md) for the mathematical results, imports, challenges,
 and license, and the [challenge guide](LOOConcentration/formal/challenges/README.md)
 for the comparator format and its limitations.
+
+## Conditional-risk well-definedness
+
+The frozen `LOOConcentration.Revision.exists_unique_conditional_risk` theorem proves existence and uniqueness of the sample-law L¹ class representing the conditional expected fitted loss. It constructs the independent-test integral from joint integrability without importing the exported risk definition. Its construction is definitionally the existing `looRiskL1`; the complete characterization and uniqueness exports are bound with the well-definedness theorem in the versioned semantic unit recorded in `revision-anchors.json`. The risk definition and all four main theorem statements are unchanged.
