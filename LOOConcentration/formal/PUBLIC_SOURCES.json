@@ -1130,7 +1130,7 @@
     "UnboundedSharpNormMomentSource.lean": "842273f87c494635c9db7d8a3cb485cc6dc1697d1b143fd384b0f40cc5458870",
     "challenges/Challenge.lean": "d08ea1b62482d5155a304935a9351fc957fcb1087c6f498fbee9210712d014ad",
     "challenges/ComparatorSupport.lean": "4f4596a725bed9b77c0e0213b88f97190df7f9b2f5d7b82461ab5f7b0f2fe6fa",
-    "challenges/README.md": "1076fc5c00abf948fa93b4de6a43744a125c57f4301ba5106e0b2634ff614bb9",
+    "challenges/README.md": "84c20b9627bbcf86544cb63d7123b27c6c4163a56c3da166e33f11477f8235fa",
     "challenges/Solution.lean": "a62f4ea2b5a9abf29b52c305a712bb8ebb4f3e474162a6e89e074fc42a3daa75",
     "challenges/compare.py": "4ef7219a77e79eb78b2180e5ec7cbe751636ba1acaf45619c6528484292ce482",
     "challenges/generate.py": "26b3e07514c93c54dfc2f6545f173d4a88f6a8345346ef90357e723485b5904a",
