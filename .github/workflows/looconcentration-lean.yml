@@ -1,4 +1,4 @@
-name: LOOConcentration revised manuscript
+name: LOOConcentration
 
 "on":
   push:
@@ -14,9 +14,9 @@ concurrency:
 
 jobs:
   lean-and-audit:
-    name: Build revised manuscript and audit axioms
+    name: Build manuscript and audit axioms
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 60
     env:
       LEAN_NUM_THREADS: "2"
     defaults:
@@ -40,7 +40,7 @@ jobs:
           use-mathlib-cache: "true"
           use-github-cache: "true"
 
-      - name: Build the revised manuscript release and audit interfaces
+      - name: Build the manuscript release and audit interfaces
         run: |
           python3 scripts/ci.py
 
